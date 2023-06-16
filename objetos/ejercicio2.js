@@ -7,13 +7,15 @@
     nombre: 'Celula',
     edad: 7,
     materia : {
-        lenguaje: 7,
-        frances: 5,
-        actuacion: 6,
+        ingles: 7,
+        programacion: 5,
+        html: 6,
+
     },
     promedioNotas: function (){
-        const promedio = ((this.materia.lenguaje + this.materia.frances + this.materia.actuacion) / 3);
-        console.log(`El promedio de ${this.nombre} es ${promedio}`);
+        const promedio = ((this.materia.ingles + this.materia.programacion + this.materia.html) / 3);
+        console.log(`El promedio de la alumna ${this.nombre} es ${promedio}`);
+
     }
 }
 
