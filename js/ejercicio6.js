@@ -1,6 +1,6 @@
 var num1 = prompt('Escribe un numero');
 var num2 = prompt('Escribe otro numero.');
-if(num>num2){
+if(num1>num2){
     console.log(`El primer numero es mayir ${num1}"`) 
     }
         else {
